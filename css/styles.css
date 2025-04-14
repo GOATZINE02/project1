@@ -1,6 +1,6 @@
 /* Globaalit tyylit */
 body {
-    font-family: 'Zilla Slab', serif;
+    font-family: 'serif-sans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -82,8 +82,8 @@ main {
 
 .cta-button {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
-    background-color: #533b0c;
+    padding: 0.72rem 1.5rem;
+    background-color: #896c55;
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -93,7 +93,7 @@ main {
 }
 
 .cta-button:hover {
-    background-color: #896c55;
+    background-color: #322202;
     transform: translateY(-2px);
 }
 
@@ -101,8 +101,8 @@ main {
     padding: 2rem;
     text-align: center;
     background-color: #ffffff;
+    color: #050505;
 }
-
 .video-container {
     position: relative;
     width: 80%;
@@ -182,7 +182,7 @@ footer {
 .product-card {
     background-color: #533b0c;
     color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #533b0c;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -195,11 +195,19 @@ footer {
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-.product-card img {
+.product-card {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
+}
+
+.product-card img {
+    max-width: 100%; /* Kuva täyttää kortin leveyden */
+    height: 200px; /* Kiinteä korkeus kaikille kuville */
+    object-fit: cover; /* Säilyttää kuvien suhteet ja rajaa tarvittaessa */
+    border-radius: 8px; /* Pyöristetyt kulmat */
+    margin-bottom: 1rem; /* Tyhjä tila kuvan ja tekstin välillä */
 }
 
 .product-card h3 {
@@ -220,7 +228,7 @@ footer {
 
 .add-to-cart {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
+    padding: 1.0rem 1.5rem;
     background-color: #896c55;
     color: #fff;
     border: none;
