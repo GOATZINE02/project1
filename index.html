@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ÄlyX Oy valmistaa laadukkaita puisia pulmapelejä.">
+    <title>ÄlyX Oy - Koti</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="ÄlyX Oy logo">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Etusivu</a></li>
+                <li><a href="tuotteet.html">Tuotteet</a></li>
+                <li><a href="jalleenmyynti.html">Jälleenmyynti</a></li>
+                <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Tervetuloa ÄlyX Oy:n maailmaan!</h1>
+            <p>Pulmapelit, jotka haastavat mielen ja kehittävät älykkyyttä.</p>
+            <a href="tuotteet.html" class="cta-button">Katso tuotteet</a>
+        </section>
+
+        <section class="about">
+            <h2>Yhteystiedot</h2>
+            <p>ÄlyX Oy on suomalainen yritys, joka valmistaa laadukkaita puisia pulmapelejä. Tuotteemme soveltuvat kaikille ikäryhmille ja tarjoavat hauskan ajanvieton sekä mielen haasteen.</p>
+        </section>
+
+        <section class="featured-products">
+            <h2>Suosituimmat tuotteemme</h2>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/puzzle1.jpeg" alt="Pulmapeli 1">
+                    <h3>PulmaPro</h3>
+                    <p>Hienostunut pulmapeli, joka sopii perheille.</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/puzzle2.jpeg" alt="Pulmapeli 2">
+                    <h3>PulmaMini</h3>
+                    <p>Pienikokoinen pulmapeli matkalle.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Video-osio -->
+    <section class="video-section">
+        <h2>Katso video</h2>
+        <div class="video-container">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/d4DeiuTAYMQ?si=S_1ngHmhz6eUG7dT" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://instagram.com" target="_blank"><img src="images/instagram.jpeg" alt="Instagram"></a>
+        </div>
+        <p>&copy; 2025 ÄlyX Oy. Kaikki oikeudet pidätetään.</p>
+        <main>
+            <section class="contact">
+                <h1>Yhteystiedot</h1>
+                <p>ÄlyX Oy<br>
+                    Pulmatie 100<br>
+                    00101 Helsinki<br>
+                    Puh. 555 123 4567<br>
+                    Email: <a href="mailto:konttori@alyx.fi">konttori@alyx.fi</a></p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1983.089876452345!2d24.938379!3d60.169855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x468dfc5b2e4f0b8b%3A0x8b2f5a0f5f5f5f5f!2sHelsinki!5e0!3m2!1sen!2sfi!4v1698745678901!5m2!1sen!2sfi"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </main>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function(event) {
+                console.log(`Navigating to: ${this.href}`);
+            });
+        });
+    </script>
+</body>
+
+<title>ÄlyX Oy - Pulmapelien valmistaja</title>
+
+
+</html>
